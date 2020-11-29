@@ -6599,6 +6599,8 @@ function getRandomColor() {
   // Your code below --zkonak
 var bodyEl=document.querySelector("body");
 bodyEl.style.backgroundColor=randomColor;
+var buttonsEl=document.querySelector("button");
+buttonsEl.style.backgroundColor=randomColor;
   // Your code above--zkonak
 }
 
